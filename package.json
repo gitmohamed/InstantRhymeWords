@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js && open http://localhost:9000"
   },
-  "author": "",
+  "author": "Mohamed Hassan",
   "license": "MIT",
   "devDependencies": {
     "body-parser": "1.15.1",
