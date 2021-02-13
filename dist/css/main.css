@@ -63,11 +63,27 @@ h1, h2 {
 #results span {
   text-align: center;
   display: block;
+  margin: 10px auto;
+}
+
+.fixed {
+  display: table;
+  width: 95%;
+  background: white;
   margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: relative;
+  z-index: 99;
 }
 
 #rhymeCont {
   width: 80%;
+  /* top: 20vh; */
+  left: 0;
+  right: 0;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
 }
@@ -77,6 +93,18 @@ h1, h2 {
   border: 1px solid #ddd;
   display: inline-block;
   margin: 10px;
+}
+
+#barbar {
+  padding: 10px;
+  background: #f2f2f2;
+  width: 80%;
+  text-align: left;
+  white-space: break-spaces;
+}
+
+span.final, span.interim {
+  margin: 30px auto;
 }
 
 .interim {

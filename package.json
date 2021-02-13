@@ -1,10 +1,10 @@
 {
   "name": "rhymeGenerator",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Find words that rhyme with the last word in any sentence instantly.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js && open http://localhost:9000"
+    "start": "node server.js"
   },
   "author": "Mohamed Hassan",
   "license": "MIT",

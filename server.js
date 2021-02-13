@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname + '/index.html'));
-}).listen(app.get('port'), function(req, res){
+}).listen(app.get('port'), function(req, res) {
   console.log("listening on localhost port "+ app.get('port'));
 });
 
